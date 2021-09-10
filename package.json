@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite --open",
+    "preview": "vite preview --open --port 8080",
+    "build": "vite build --out-dir dist",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "esbuild": "^0.12.16",
+    "jointjs": "^3.3.1",
+    "module": "^1.2.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vite": "^2.4.1",
+    "vite-plugin-components": "^0.12.2",
+    "vite-plugin-vue2": "^1.7.2",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
